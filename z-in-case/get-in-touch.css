@@ -1,0 +1,42 @@
+#get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+}
+
+#get-in-touch>h2 {
+    padding: 60px 10px 0 10px;
+}
+
+#get-in-touch>form>input {
+    margin-top: 50px;
+    border-color: #f2f2f2;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: white;
+    border-radius: 0px;
+    background: black;
+    border: 3px solid
+}
+
+#get-in-touch>form>input:hover {
+    border-color: black;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: black;
+    border-radius: 0px;
+    background: #f2f2f2;
+    border: 3px solid;
+}
+
+@media screen and (max-width: 440px) {
+    #get-in-touch>h2 {
+        padding: 30px 10px 0 10px;
+        font-size: 30px;
+    }
+
+
+}

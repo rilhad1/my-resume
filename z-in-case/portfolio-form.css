@@ -1,0 +1,55 @@
+#portfolio {
+    background-color: #f2f2f2;
+    padding: 70px 0 40px 0;
+}
+
+#portfolio>h2 {
+    padding: 0 0 40px 0;
+}
+
+#portfolio>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#portfolio>div>img {
+    max-height: 300px;
+    margin: 20px 0;
+
+
+}
+
+.style_prevu_kit {
+    border: 0;
+    position: relative;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+
+.style_prevu_kit:hover {
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
+}
+
+.shadow:hover {
+    box-shadow: 0px 0px 50px #000000;
+}
+
+
+@media screen and (max-width: 550px) {
+  
+    #portfolio>div>img {
+        max-width: 280px;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 370px) {
+    .style_prevu_kit:hover {
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+}

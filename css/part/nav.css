@@ -1,0 +1,59 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar-brand>img {
+    width: 150px;
+    padding-left: 20px;
+}
+
+button.navbar-toggler.collapsed,
+button.navbar-toggler {
+    margin: 0 auto;
+    margin-right: 5%;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.navbar {
+    padding: 0;
+}
+
+nav {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1100px;
+    height: 71px;
+    margin: 0 auto;
+
+}
+
+nav div ul {
+    background-color: black;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav div ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    color: #cccccc!important;
+    text-shadow: 0 1px 0 gray;
+    text-align: center;
+}
+
+nav div ul li a:hover {
+    color: white!important;
+}

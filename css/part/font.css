@@ -1,0 +1,37 @@
+.titilium-white-h2 {
+    text-align: center;
+    font-size: 38px;
+    color: #f2f2f2;
+    font-style: normal;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.titilium-white-h3 {
+    text-align: center;
+    font-size: 26px;
+    color: #f2f2f2;
+    font-style: normal;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.lato-blue-h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #2c3e50;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+.titilium-blue-h3 {
+    color: #2c3e50;
+    font-size: 26px;
+    font-style: normal;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.roboto-blue {
+    font-family: 'Roboto Slab', serif;
+    color: #2c3e50;
+    font-size: 16px;
+    font-style: normal;
+}

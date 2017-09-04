@@ -1,0 +1,76 @@
+#certificate {
+    background-color: black;
+    padding: 70px 0 40px;
+}
+
+#certificate h2 {
+    margin: 0 0 40px 0;
+}
+
+
+#certificate img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+#contact {
+    background-color: black;
+    padding: 70px 0 40px 0;
+}
+
+#form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+div#contact>h3.titilium-white-h3{
+    margin:0 0 50px 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #f2f2f2;
+    opacity: 0.7;
+    text-align: left;
+}
+
+#form-name,
+#form-email,
+#form-message {
+    outline: 0;
+    border-width: 0 0 2px 0;
+    width: 35%;
+    min-width: 300px;
+    margin: 10px;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: white;
+    border-radius: 0px;
+    background: black;
+}
+
+[type="submit"]:hover {
+    border-color: black;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: black;
+    border-radius: 0px;
+    background: #f2f2f2;
+    border: 3px solid
+}
+
+[type="submit"] {
+    display: flex;
+    margin: 0 auto;
+    border-color: #f2f2f2;
+    padding: 18px 27px;
+    font-size: 19px;
+    color: #f2f2f2;
+    border-radius: 0px;
+    background: black;
+    border: 3px solid;
+}
